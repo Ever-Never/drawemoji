@@ -1,0 +1,8 @@
+version: '2'
+services:
+  sharing_render:
+    build: './'
+    environment:
+      TZ: 'Europe/Moscow'
+    volumes:
+      - './:/code:rw'
